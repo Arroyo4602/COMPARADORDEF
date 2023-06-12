@@ -1,0 +1,59 @@
+/*Centrar el formulario en el centro de la pagina*/
+form {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+/*Dejar un espacio entre los inputs*/
+input {
+    margin-bottom: 40px;
+}
+/*Quitar los estilos a la etiqueta li*/
+ul {
+    list-style: none;
+}
+/*Hacer los inputs mas anchos y con un borde rojo cuando se pulsa en el*/
+input[type="text"], input[type="file"] {
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+/*Colocacion del boton Enviar en el centro del form*/
+input[type="submit"] {
+    width: 94%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+}
+/*Efecto hover para el boton de enviar que pasara a tener el fondo negro y la letra blanca*/
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 0.8s ease;
+}
+/*Centrar el h1*/
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

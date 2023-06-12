@@ -1,0 +1,23 @@
+#general{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: black;
+    color: white;
+}
+
+div#general{
+    border: 2px solid black;
+    padding: 10px;
+   
+}
+
+img{
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+}
